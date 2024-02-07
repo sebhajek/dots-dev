@@ -18,7 +18,7 @@ sbt --script-version;
 cs install giter8;
 cs update g8;
 
-sudo zypper -n in lua54 lua54-luarocks luajit fennel;
+sudo zypper -n in lua54 lua54-luarocks luajit lua-fennel;
 
 sudo zypper -n in zig clang;
 
