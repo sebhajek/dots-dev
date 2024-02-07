@@ -6,7 +6,7 @@ wget https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2
 tar -xzf jvm.tar.gz -C ~/.setup-dots/dots/dev/jvm;
 cp -ur ~/.setup-dots/dots/dev/jvm/* ~/.jvm;
 cd ~/.jvm/jdk-21.0.2+13;
-sudo ln -s ~/.jvm/jdk-21.0.2+13/bin/* /bin;
+sudo ln -sf ~/.jvm/jdk-21.0.2+13/bin/* /bin;
 
 curl -fL "https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz" | gzip -d > cs;
 chmod +x cs;
