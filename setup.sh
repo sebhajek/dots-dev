@@ -17,3 +17,10 @@ sbt --script-version;
 
 cs install giter8;
 cs update g8;
+
+sudo zypper -n in lua54 lua54-luarocks luajit fennel;
+
+sudo zypper -n in zig clang;
+
+sudo zypper -n in rustup && rustup toolchain install stable;
+sudo zypper -n in go;
