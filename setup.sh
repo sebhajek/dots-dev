@@ -8,7 +8,7 @@ sudo ln -s ~/.jvm/jdk-21.0.2+13/bin/* /bin;
 
 curl -fL "https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz" | gzip -d > cs;
 chmod +x cs;
-./cs setup;
+./cs setup --yes;
 sbt --script-version;
 
 cs install giter8;
